@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #11110fc7;
+    font-family: 'Tommy', sans-serif;
+    background-image: url('img/fundo.png');
+    background-size: cover;        /* ou "contain", ou "1000px auto" */
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.background{ 
+    display: grid;
+    background-color: #00000044;
+    border-radius: 15px;
+    height: max-content;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.1);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+   
+}
+
+.header{
+    position: absolute;
+    background-color: #0a0501;
+    width: 70vw;
+    height: 11vh;
+    border-radius: 15px;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;   
+}
+
+
+.text{
+    
+    font-family: 'Tommy', sans-serif;
+    margin-top: 150px;
+    margin-left: 140px;
+    align-items: center
+}
+
+ 
+
+ .divimagem{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: normal; 
+}
+
+ .img{
+    margin: 20px;
+    border-style: groove;
+    width: 10px;
+    height: 10px;
+}
+
+
+ button{ 
+    border-radius: 5px;
+    font-family: 'Tommy', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    height: 30px;
+    background-color: #f1f1f1;
+    color: #070605;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+    transform: translateY(1px);
+    box-shadow: 0 1px 3px rgb(255, 255, 255);
+    
+}
+
+button:hover{
+    background-color: #080808;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.973);
+}
+
+label {
+    transform: translateX(12%);
+}
+
+.bloco{
+
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #000000;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+}
+
+
+.bloco:hover {
+
+    transition: all 0.5s ease;
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: 0 0px 25px rgb(255, 17, 0);
+
+}
+
+.blocotext {
+    background-color: #ffffffb9;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000000;
+    width: 800px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 3px 10px;
+    
+   
+    
+}
+
+.blocotext:hover {
+
+    transition: all 0.5s ease;
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: 0 0px 25px rgb(255, 255, 255);
+
+
+}
