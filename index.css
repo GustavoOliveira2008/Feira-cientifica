@@ -6,8 +6,8 @@
 body{
     background-color: #11110fc7;
     font-family: 'Tommy', sans-serif;
-    background-image: url('img/fundo.png');
-    background-size: cover;        /* ou "contain", ou "1000px auto" */
+    background-image: url('fundo.png');
+    background-size: cover;     
     background-position: center;
     background-repeat: repeat;
 }
@@ -143,6 +143,7 @@ label {
     transform: translateY(-2px);
     cursor: pointer;
     box-shadow: 0 0px 25px rgb(255, 255, 255);
+
 
 
 }
