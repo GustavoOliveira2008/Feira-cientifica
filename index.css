@@ -26,7 +26,7 @@ body{
     box-shadow: 0 0 15px rgb(0, 0, 0, 0.1);
     grid-template-columns: repeat(2, 1fr);
     gap: 200px;
-   
+    padding: 30px;
 }
 
 .header{
@@ -147,3 +147,4 @@ label {
 
 
 }
+
