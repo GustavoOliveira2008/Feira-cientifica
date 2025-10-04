@@ -5,20 +5,20 @@
 
 body{
     background-color: #11110fc7;
-    background-image: url('fundo.png');
+    background-image: url('img/fundo.png');
     background-size: cover;       
     background-position: center;
     background-repeat: repeat;
     justify-content: center;
 }
 .background{  
-    display: block; /* ou grid com 1 coluna */
+    display: block;
     width: 80vw;
     margin: 30px auto 2em auto;
-    padding: 30px 30px 50px 0px;
-    background-color: #00000044;
+    padding: 20px 30px 50px 0px;
+    background-color: #fdf4f444;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+    box-shadow: 0 0 15px rgba(253, 251, 251, 0.5);
 }
 .header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,9 +37,10 @@ body{
     z-index: 1000;   
 }
 .text{
-    max-width: 800px;
+    max-width: 75%;
     margin: 120px auto 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15vh;
 }
  .divimagem{
     position: relative;
@@ -69,10 +70,10 @@ body{
     margin-left: 25px;
     transition: all 0.3s ease;
     transform: translateY(1px);
-    box-shadow: 0 1px 3px rgb(255, 255, 255); 
+    box-shadow: 0 1px 3px rgba(8, 8, 8, 0.829); 
 }
 button:hover{
-    background-color: #000000c0;
+    background-color: #00000088;
     color: #ffffffc0;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.973);
@@ -84,10 +85,11 @@ label {
     background-color: #ffffffb9;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgba(255, 255, 255, 0.445);
-    max-width: 800px;
+    max-width: 200vh;
     width: 100%;
     padding: 20px;
     margin: 0 auto 20px auto;
+    text-align: center;
 }
 .blocotext:hover {
     transition: all 0.5s ease;
