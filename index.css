@@ -5,7 +5,7 @@
 
 body{
     background-color: #11110fc7;
-    background-image: url('fundo.png');
+    background-image: url('img/fundo.png');
     background-size: cover;       
     background-position: center;
     background-repeat: repeat;
@@ -16,7 +16,7 @@ body{
     width: 80vw;
     margin: 30px auto 2em auto;
     padding: 20px 30px 50px 0px;
-    background-color: #fdf4f444;
+    background-color: #fdf4f400;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(253, 251, 251, 0.5);
 }
@@ -53,8 +53,8 @@ body{
  .img{
     margin: 20px;
     border-style: groove;
-    width: 10px;
-    height: 10px;
+    width: 20vh;
+    height: 20vh;
 }
  button{ 
     border-radius: 5px;
@@ -96,5 +96,4 @@ label {
     transform: translateY(-2px);
     cursor: pointer;
     box-shadow: 0 0px 25px rgb(255, 255, 255);
-
 }
